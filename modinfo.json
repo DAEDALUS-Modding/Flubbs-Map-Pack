@@ -1,0 +1,20 @@
+{
+	"author":"flubb",
+	"build":"110069",
+	"category":["maps","titans"],
+	"context":"client",
+	"date":"2019-06-14",
+	"description":"The world's best map pack. It's amazing, let me tell you. I know all about maps, and I've got all the best maps, on all the best biomes. It's tremendous. Now featuring Nik's maps.",
+	"display_name":"flubb's Tremendous Map Pack",
+	"forum":"https://forums.uberent.com/threads/flubbs-tremendous-map-pack.72345/",
+	"identifier":"com.flubbateios.mappack",
+	"version":"1.0.6",
+	"dependencies": [
+        "com.pa.conundrum.cShareSystems"
+    ],
+	"scenes": {
+        "load_planet": [
+            "coui://ui/mods/com.flubbateios.mappack/systems.js"
+        ]
+    }
+}
